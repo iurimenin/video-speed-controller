@@ -1,29 +1,28 @@
 #video-speed-controller {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
-    padding: 8px 12px;
-    border-radius: 8px;
-    font-family: sans-serif;
-    z-index: 10000;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  
-  #video-speed-controller button {
-    background: #333;
-    border: none;
-    color: white;
-    padding: 4px 8px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 4px;
-  }
-  
-  #video-speed-controller button:hover {
-    background: #555;
-  }
-  
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-family: sans-serif;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#video-speed-controller button {
+  background: #333;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#video-speed-controller button:hover {
+  background: #555;
+}
